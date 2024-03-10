@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before
+{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200 px;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: aqua;
+}
