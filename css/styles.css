@@ -4,10 +4,25 @@
 {
   box-sizing: border-box;
 }
+ul{
+  margin: 0;
+  list-style: none;
+}
+li {
+  padding-left: 0;
+}
 
 .container{
-  max-width: 1200 px;
+  max-width: 1220 px;
   padding: 0 10px;
   margin: 0 auto;
-  background-color: aqua;
+  
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  margin-right: 70px;
+  
 }
