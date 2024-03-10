@@ -4,12 +4,37 @@
 {
   box-sizing: border-box;
 }
-ul{
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
-li {
-  padding-left: 0;
+
+p {
+  margin: 0;
+}
+
+.body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
 }
 
 .container{
@@ -21,8 +46,25 @@ li {
 .header__inner{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .menu {
   margin-right: 70px;
   
+}
+.menu__list{
+  display: flex;
+}
+.menu__item + .menu__item{
+  padding-left: 10px;
+
+}
+.menu__link{
+  text-transform: uppercase;
+  padding: 40px 20px;
+  transition: all .3s;
+}
+.menu__link:hover {
+  background-color: #131313;
+  color: #fff;
 }
