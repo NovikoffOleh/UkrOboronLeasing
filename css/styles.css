@@ -162,7 +162,7 @@ p {
 
 /*-- свойства  управления слайдера  ----*/
 /*---их можно увидеть визвав Просмотр кода на кнопках слайдера---*/
-.bike-slider .slick-dots {
+/*.bike-slider .slick-dots {
   right: 0;
   top: 50px;
 }
@@ -190,4 +190,4 @@ p {
 .slick-active button:hover,
 .slick-active button {
   background-color: #ff4040;
-}
+}*/
