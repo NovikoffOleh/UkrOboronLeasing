@@ -77,3 +77,51 @@ p {
 }
 
 /*----------bike-------------*/
+.bike {
+ padding: 100px 0 150px;
+}
+  .bike__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bike__column-slider{
+    flex-basis: 630px;
+    margin-left: 30px;
+  }
+
+  .bike__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin: 40px 0 5px;
+  }
+
+  .bike__subtitle {
+    margin: 0 0 60px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 39px;
+    color: #3e3e3e;
+  }
+
+  .bike__text {
+    margin-bottom: 20px;
+  }
+ .bike_link {
+   margin-top: 80px;
+   display: inline-block;
+   background-color: #131313;
+   color: #ffff;
+   padding: 28px 71px 28px 81px;
+   text-transform: uppercase;
+   font-size: 18;
+   line-height: 24px;
+   letter-spacing: 1.1em;
+   transition: all .3s;
+ }
+
+ .bike_link:hover {
+   background-color: #ffcb00;
+   color: #131313;
+ }
+
