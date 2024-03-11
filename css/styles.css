@@ -4,6 +4,12 @@
 {
   box-sizing: border-box;
 }
+body {
+  
+  background-image: url(/images/army_camouflage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 html {
   scroll-behavior: smooth;
@@ -35,13 +41,14 @@ p {
   font-size: 14px;
   line-height: 17px;
   color: #131313;
+  
+  
 }
 
 .container{
   max-width: 1220 px;
   padding: 0 10px;
   margin: 0 auto;
-  
 }
 .header__inner{
   display: flex;
@@ -70,124 +77,3 @@ p {
 }
 
 /*----------bike-------------*/
-.bike {
-  padding: 100px 0 150px;
-}
-
-.bike__inner {
-  display: flex;
-  justify-content: space-between;
-}
-
-.bike__column {}
-
-/*-- свойства слайдера ----*/
-.bike__column-slider {
-  flex-basis: 630px;
-  margin-left: 30px;
-  max-width: 630px;
-}
-
-/*------------------------*/
-.bike__title {
-  margin: 60px 0 5px;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 77px;
-  color: #131313;
-}
-
-.bike__subtitle {
-  margin: 0 0 60px;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
-  color: #6f6f6f;
-}
-
-.bike__text {
-  min-width: 340px;
-  /*min-width: 340px;*/
-  margin-bottom: 20px;
-}
-
-.bike__link {
-  margin-top: 80px;
-  display: inline-block;
-  background-color: #131313;
-  color: #ffff;
-  padding: 28px 71px 28px 81px;
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 1.1em;
-  transition: all .3s;
-}
-
-.bike__link:hover {
-  background-color: #ffcb00;
-  color: #131313;
-}
-
-.bike__list {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 25px;
-}
-
-.bike__list-item {
-  display: flex;
-  flex-direction: column;
-  min-width: 160px;
-  text-align: center;
-  align-items: center;
-  min-height: 58px;
-}
-
-.bike__list-num {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.bike__list-text {
-  /*display: block;*/
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  /*text-transform: lowercase;*/
-  /*margin-bottom: 5px;*/
-  margin: auto 0;
-
-}
-
-/*-- свойства  управления слайдера  ----*/
-/*---их можно увидеть визвав Просмотр кода на кнопках слайдера---*/
-/*.bike-slider .slick-dots {
-  right: 0;
-  top: 50px;
-}
-
-.slick-dots {
-  position: absolute;
-}
-
-.slick-dots li+li {
-  padding-top: 10px;
-}
-
-.slick-dots button {
-  font-size: 0;
-  padding: 0;
-  border: none;
-  background-color: #131313;
-  width: 2px;
-  height: 25px;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: all .3s;
-}
-
-.slick-active button:hover,
-.slick-active button {
-  background-color: #ff4040;
-}*/
